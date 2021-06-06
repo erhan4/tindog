@@ -1,0 +1,183 @@
+body {
+  font-family: "Montserrat-bold";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: "Montserrat", serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-family: "Ubuntu";
+}
+
+/* Download Button */
+.downloadbutton {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+
+.titleimage {
+  width:20%;
+  transform: rotate(25deg);
+position: absolute;
+right: 25%;
+}
+
+#features {
+  padding: 7% 15%;
+  position: relative;
+
+  background-color: white;
+
+}
+
+
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1.5rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonials section */
+
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonialimage{
+  width: 10%;
+  border-radius: 50%;
+  margin: 1.3rem;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+/* press section */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.presslogo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Priary Section */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.prising-column{
+  padding: 3% 2%;
+}
+
+#cta{
+  background:#ff4c68;
+  padding: 5% 20%;
+  text-align: center;
+  color: white;
+}
+
+.baslık{
+font-family: 'Montserrat', sans-serif;
+font-size: 2.5rem;
+line-height:2;
+
+}
+.btn1{
+  margin: 2% 2%;
+
+}
+
+#footer{
+  padding: 7% 15% ;
+  background-color: #fff;
+  text-align:center;
+  margin: 0 1rem;
+}
+
+.icon2{
+  margin:0 0.6rem 1.5rem;
+}
+
+.links{
+  color: black;
+}
+.links:hover{
+  color: #ff4c68;
+}
+
+@media (max-width:993px) {
+
+#title{
+  text-align:center;
+
+}
+
+  .titleimage{
+    position:static;
+    transform: rotate(0);
+    width: 60%;
+  }
+
+}
